@@ -1,0 +1,61 @@
+Data -- Psychologis:
+
+Do you work primarily with:
+☐ Children/Adolescents
+☐ Adults
+☐ Seniors
+☐ Mixed ages
+
+Have you observed an increase in patients expressing dependency on AI tools (e.g., for emotional support, problem-solving, motivation)?
+☐ Yes
+☐ No
+☐ Not specifically
+
+To what extent do you agree with the following statements? (Likert scale: Strongly Agree – Strongly Disagree)
+
+Frequent AI use may lead to reduced problem-solving ability in individuals.
+☐ Strongly Agree
+☐ Agree
+☐ Neutral
+☐ Disagree
+☐ Strongly Disagree
+
+Over-reliance on AI might lead to increased anxiety or learned helplessness.
+☐ Strongly Agree
+☐ Agree
+☐ Neutral
+☐ Disagree
+☐ Strongly Disagree
+
+AI tools can be used beneficially in therapeutic or self-help contexts.
+☐ Strongly Agree
+☐ Agree
+☐ Neutral
+☐ Disagree
+☐ Strongly Disagree
+
+Exposure to AI-generated content may distort emotional development in younger individuals.
+☐ Strongly Agree
+☐ Agree
+☐ Neutral
+☐ Disagree
+☐ Strongly Disagree
+
+
+Do you believe the general population is adequately prepared to use AI responsibly and with mental health awareness?
+☐ Yes
+☐ No
+☐ Depends – explain below
+
+What is your opinion about people who use AI as a psychologis.
+(Open-ended)
+
+Would you support integrating AI literacy and responsible-use education into school mental health programs? Why or why not?
+(Open-ended)
+
+4. Final Thoughts
+Do you believe AI will have a net positive or negative impact on mental health in the next 10 years?
+☐ Mostly positive
+☐ Balanced (positive and negative)
+☐ Mostly negative
+☐ Too early to tell

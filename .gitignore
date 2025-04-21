@@ -23,8 +23,6 @@ venv/
 # Data files (optional)
 *.csv
 *.tsv
-*.xls
-*.xlsx
 *.parquet
 *.sav
 *.dta

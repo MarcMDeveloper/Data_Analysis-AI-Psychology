@@ -1,0 +1,96 @@
+Data -- IA:
+
+(These help you analyze trends across different age groups, education levels, etc.)
+
+Age:
+☐ Under 18
+☐ 18–24
+☐ 25–34
+☐ 35–44
+☐ 45–54
+☐ 55+
+Age:
+(Open-ended question)
+
+Occupation:
+☐ Student
+☐ Employed
+☐ Self-employed
+☐ Unemployed
+☐ Retired
+Occupation:
+(Open-ended question)
+
+
+Education Level:
+☐ High School
+☐ Bachelor’s Degree
+☐ Master’s Degree
+☐ PhD or higher
+☐ Other
+
+Country:
+(Open-ended question)
+
+
+How often do you use AI tools (e.g., ChatGPT, Siri, Google Assistant, etc.)?
+☐ Daily
+☐ Several times a week
+☐ Occasionally
+☐ Rarely
+☐ Never
+
+What do you primarily use AI tools for? (Check all that apply)
+☐ Studying or learning
+☐ Work/professional tasks
+☐ Creative writing or art
+☐ Social media content
+☐ Problem-solving (e.g., coding, math, decision-making)
+☐ Entertainment
+☐ Other: ____________
+
+Do you feel more productive when using AI tools?
+☐ Yes
+☐ No
+☐ Not sure
+
+
+
+
+I feel more confident in solving problems on my own without AI assistance.
+☐ Strongly Agree
+☐ Agree
+☐ Neutral
+☐ Disagree
+☐ Strongly Disagree
+
+Using AI makes me feel mentally lazy.
+☐ Strongly Agree
+☐ Agree
+☐ Neutral
+☐ Disagree
+☐ Strongly Disagree
+
+Relying on AI helps reduce my stress.
+☐ Strongly Agree
+☐ Agree
+☐ Neutral
+☐ Disagree
+☐ Strongly Disagree
+
+AI tools make me second-guess my own knowledge or decisions.
+☐ Strongly Agree
+☐ Agree
+☐ Neutral
+☐ Disagree
+☐ Strongly Disagree
+
+4. Opinions & Concerns
+Do you believe overuse of AI can negatively affect mental health or problem-solving skills?
+☐ Yes
+☐ No
+☐ Not sure
+
+
+What application would you like to see that use IA?
+(Open-ended question)
