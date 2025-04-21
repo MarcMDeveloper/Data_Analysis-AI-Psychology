@@ -1,0 +1,919 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.25.0208.0338                               -->
+<workbook original-version='18.1' source-build='2024.3.4 (20243.25.0208.0338)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Forms-Results-Raw.xlsx' inline='true' name='federated.1v83erp0ej4rar120er021pzd81z' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Forms-Results-Raw.xlsx' name='textscan.0e9abvf0s04niz10wfn131mextmv'>
+            <connection class='textscan' directory='C:/Users/User/Desktop/Bootcamp/Work/Module-1_Final-Project/Data_Analysis-AI-Psychology/data/processed' filename='Forms-Results-Raw.xlsx.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0e9abvf0s04niz10wfn131mextmv' name='Forms-Results-Raw.xlsx.csv' table='[Forms-Results-Raw.xlsx#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_ES' separator=','>
+            <column datatype='integer' name='ID' ordinal='0' />
+            <column datatype='string' name='Age' ordinal='1' />
+            <column datatype='string' name='Occupation' ordinal='2' />
+            <column datatype='string' name='Gender' ordinal='3' />
+            <column datatype='string' name='Education Level' ordinal='4' />
+            <column datatype='string' name='Country' ordinal='5' />
+            <column datatype='string' name='How often do you use AI tools?' ordinal='6' />
+            <column datatype='string' name='What do you primarily use AI tools for?' ordinal='7' />
+            <column datatype='string' name='Do you feel more productive when using AI tools?' ordinal='8' />
+            <column datatype='string' name='Do you believe overuse of AI can negatively affect mental health or problem-solving skills?' ordinal='9' />
+            <column datatype='string' name='Do you know someone that use AI as  conversational partner?' ordinal='10' />
+            <column datatype='string' name='I feel more confident in solving problems on my own without AI assistance.' ordinal='11' />
+            <column datatype='string' name='Using AI makes me feel mentally lazy.' ordinal='12' />
+            <column datatype='string' name='Relying on AI helps reduce my stress.' ordinal='13' />
+            <column datatype='string' name='AI tools make me second-guess my own knowledge or decisions.' ordinal='14' />
+            <column datatype='string' name='Its recomendable for people to use AI as conversational partner' ordinal='15' />
+            <column datatype='string' name='What application with AI would you like to exist?' ordinal='16' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_ES&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occupation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Occupation]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>Occupation</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education Level</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Education Level]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>Education Level</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>How often do you use AI tools?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[How often do you use AI tools?]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>How often do you use AI tools?</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What do you primarily use AI tools for?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What do you primarily use AI tools for?]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>What do you primarily use AI tools for?</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Do you feel more productive when using AI tools?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Do you feel more productive when using AI tools?]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>Do you feel more productive when using AI tools?</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Do you believe overuse of AI can negatively affect mental health or problem-solving skills?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Do you believe overuse of AI can negatively affect mental health or problem-solving skills?]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>Do you believe overuse of AI can negatively affect mental health or problem-solving skills?</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Do you know someone that use AI as  conversational partner?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Do you know someone that use AI as  conversational partner?]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>Do you know someone that use AI as  conversational partner?</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>I feel more confident in solving problems on my own without AI assistance.</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[I feel more confident in solving problems on my own without AI assistance.]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>I feel more confident in solving problems on my own without AI assistance.</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Using AI makes me feel mentally lazy.</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Using AI makes me feel mentally lazy.]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>Using AI makes me feel mentally lazy.</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Relying on AI helps reduce my stress.</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Relying on AI helps reduce my stress.]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>Relying on AI helps reduce my stress.</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AI tools make me second-guess my own knowledge or decisions.</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AI tools make me second-guess my own knowledge or decisions.]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>AI tools make me second-guess my own knowledge or decisions.</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Its recomendable for people to use AI as conversational partner</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Its recomendable for people to use AI as conversational partner]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>Its recomendable for people to use AI as conversational partner</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What application with AI would you like to exist?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What application with AI would you like to exist?]</local-name>
+            <parent-name>[Forms-Results-Raw.xlsx.csv]</parent-name>
+            <remote-alias>What application with AI would you like to exist?</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Forms-Results-Raw.xlsx.csv' datatype='table' name='[__tableau_internal_object_id__].[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_GB' class='hyper' dbname='C:/Users/User/AppData/Local/Temp/TableauTemp/#TableauTemp_1m7cm3g0d0fe401acc1uo0i39lfn.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/21/2025 09:40:53 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>60</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Occupation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Occupation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Occupation</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gender</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Education Level</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Education Level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Education Level</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>How often do you use AI tools?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[How often do you use AI tools?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>How often do you use AI tools?</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>What do you primarily use AI tools for?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[What do you primarily use AI tools for?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>What do you primarily use AI tools for?</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Do you feel more productive when using AI tools?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Do you feel more productive when using AI tools?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Do you feel more productive when using AI tools?</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Do you believe overuse of AI can negatively affect mental health or problem-solving skills?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Do you believe overuse of AI can negatively affect mental health or problem-solving skills?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Do you believe overuse of AI can negatively affect mental health or problem-solving skills?</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Do you know someone that use AI as  conversational partner?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Do you know someone that use AI as  conversational partner?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Do you know someone that use AI as  conversational partner?</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>I feel more confident in solving problems on my own without AI assistance.</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[I feel more confident in solving problems on my own without AI assistance.]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>I feel more confident in solving problems on my own without AI assistance.</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Using AI makes me feel mentally lazy.</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Using AI makes me feel mentally lazy.]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Using AI makes me feel mentally lazy.</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Relying on AI helps reduce my stress.</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Relying on AI helps reduce my stress.]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Relying on AI helps reduce my stress.</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AI tools make me second-guess my own knowledge or decisions.</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[AI tools make me second-guess my own knowledge or decisions.]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AI tools make me second-guess my own knowledge or decisions.</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Its recomendable for people to use AI as conversational partner</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Its recomendable for people to use AI as conversational partner]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Its recomendable for people to use AI as conversational partner</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>What application with AI would you like to exist?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[What application with AI would you like to exist?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>What application with AI would you like to exist?</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Forms-Results-Raw.xlsx.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Spain&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='Forms-Results-Raw.xlsx.csv' id='Forms-Results-Raw.xlsx.csv_792D5AF269034B88AB9D3DCA56FAA2A0'>
+            <properties context=''>
+              <relation connection='textscan.0e9abvf0s04niz10wfn131mextmv' name='Forms-Results-Raw.xlsx.csv' table='[Forms-Results-Raw.xlsx#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_ES' separator=','>
+                  <column datatype='integer' name='ID' ordinal='0' />
+                  <column datatype='string' name='Age' ordinal='1' />
+                  <column datatype='string' name='Occupation' ordinal='2' />
+                  <column datatype='string' name='Gender' ordinal='3' />
+                  <column datatype='string' name='Education Level' ordinal='4' />
+                  <column datatype='string' name='Country' ordinal='5' />
+                  <column datatype='string' name='How often do you use AI tools?' ordinal='6' />
+                  <column datatype='string' name='What do you primarily use AI tools for?' ordinal='7' />
+                  <column datatype='string' name='Do you feel more productive when using AI tools?' ordinal='8' />
+                  <column datatype='string' name='Do you believe overuse of AI can negatively affect mental health or problem-solving skills?' ordinal='9' />
+                  <column datatype='string' name='Do you know someone that use AI as  conversational partner?' ordinal='10' />
+                  <column datatype='string' name='I feel more confident in solving problems on my own without AI assistance.' ordinal='11' />
+                  <column datatype='string' name='Using AI makes me feel mentally lazy.' ordinal='12' />
+                  <column datatype='string' name='Relying on AI helps reduce my stress.' ordinal='13' />
+                  <column datatype='string' name='AI tools make me second-guess my own knowledge or decisions.' ordinal='14' />
+                  <column datatype='string' name='Its recomendable for people to use AI as conversational partner' ordinal='15' />
+                  <column datatype='string' name='What application with AI would you like to exist?' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Forms-Results-Raw.xlsx' name='federated.1v83erp0ej4rar120er021pzd81z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1v83erp0ej4rar120er021pzd81z'>
+            <column datatype='string' name='[How often do you use AI tools?]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[ID]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Occupation]' role='dimension' type='nominal' />
+            <column-instance column='[ID]' derivation='Count' name='[cnt:ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[How often do you use AI tools?]' derivation='None' name='[none:How often do you use AI tools?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Occupation]' derivation='None' name='[none:Occupation:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1v83erp0ej4rar120er021pzd81z].[none:Occupation:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1v83erp0ej4rar120er021pzd81z].[cnt:ID:qk]</rows>
+        <cols>([federated.1v83erp0ej4rar120er021pzd81z].[none:How often do you use AI tools?:nk] / [federated.1v83erp0ej4rar120er021pzd81z].[none:Occupation:nk])</cols>
+      </table>
+      <simple-id uuid='{8DC2CEA8-C51E-4439-8D3B-E3515AA5D9CD}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1v83erp0ej4rar120er021pzd81z].[none:Occupation:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1v83erp0ej4rar120er021pzd81z].[none:Education Level:nk]</field>
+            <field>[federated.1v83erp0ej4rar120er021pzd81z].[none:How often do you use AI tools?:nk]</field>
+            <field>[federated.1v83erp0ej4rar120er021pzd81z].[none:Occupation:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BDA1BD6E-E319-4768-A640-684FD360A68D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO292ZMkR57f94k7MvK+6+z7QmMwwGAGmIMaaSiSxpWWRj7IRBNlJjM96e/Y
+      v0AvepeZ+CA96G1FmVZrlMjV7OzOBcwC6Puo+8zK+45bD1mdkVFdXVnd1V3V6IyPGQydXh4e
+      Hu7+df/5z90jBN/3fSIiZhTxojMQEXGRvJEAXNel3++/7bxERJw7bzwCRJbT+4Fj9mh1+1Qq
+      ByfG21hboT+0j/2b73vU6/U3zoNndlnb3KNSqeD7Pq7rhf/uWDRabQD2t9bYrbYAMDsH7NUH
+      +L7Lo3vf0ugMpt/Lc/E8H9d13zi/k8hvJZWIC2PQ3uff/+Yhrudx61IRWYuhayqOoJIrzFPf
+      eoQtaPzhqz+g+vCLX/6S3UqDXFqn2bP58vOP+ep3v6M56BNTYtz90Rc0KzvIskRtf5tUtoiR
+      TCPIGr7ZQwCa9QpGukhld5Ortz+lunIPVxJ4ut/myx/e4C9/c5+f3lnClAycVhUjk+eguocg
+      Jrl7e5Gvvr3H/K/+EU+ernPrs5+w//QbLKPIH377G/LpBPFUCltQyCfiOGaXza1dFi9fY2dr
+      E7NXRctfw1A8es0GxfIC+wcVPvn8CzKG+trlFwngA+Da7btU1h+xf1BF1WNsrO+hyR5//q//
+      W7Z3K7iyzo0bN8DssfX8Pg82ely9uYQhCQz6DapNE6u1hVC6zOpOnVh7mxoG/YM29WqFITpz
+      1+7iVldpdG1Uv0NnZZXV1W1yy7dZ39nFjC+h+RBP58ilYmzv7GO6Jp4XQ213UGT47v5j8oUk
+      P/nyC/BdTF9CE0GPG+w/XUUQfKrNDq12l0s3b3Dvm68RRZ/eEJrVv+XBky1+9PMv0RSR/a3H
+      eHqGnd9+y9WPL3HQ7L2RAIQ38QK5rstwOCQej7/2DSPeLr7n4vrC6P+OjaRoeK6DIAioqopl
+      DvFFGVEAPBcfAdOy0TUVQRCQJIlBv4+iqliWRcwwWHt0j+yl28QEG1nTsYZDVF3Hdx0cFwRc
+      RFnBtkw03QDfBUR830ORZfqDIbIk4AsSvjvKE77L0LSJ6SqiJGN3a6xXbW5dnQd8+r0+qh7D
+      sYaIsozjeAi+h+8O2NzrcOPaEsOhiaZp2LaDosiY5ug3gCCKSOLrW/SRAN5jBoMBsVjsQu7t
+      +z6maaLr+oXc/7z4gN2gPo5j43rBhMz3fTzPO+Ga9wvbPn7Sehwvnu1tPZ/v+691/7Pdy8O2
+      7WMdK77v8S79LR/0HODR/Xsgx5gvZ0GOgWPTatZYunIN3/XQtNe3Gd9XfM/jt7/7HeX5BUrZ
+      JJYvkzBi+J7NQa1FsZBlMLTJZlIXndWXqB/ssr9XJVlaxB32mZsvM+j3GfS6aKKFFVskZ4xM
+      OkEQ3uq9P2gBZAtz2IMu1WqVesdkLp9FkASe3PuOxRt3OTQfPxgWihm2Kk0a+1vo6SIx0aHV
+      HWLaPq1Oi+vXblx0Fl9Jo9khWxiyvfmM/Vafa0WDZ+tblLMJZLtG7cDk45tX3/p9P2gBeFYP
+      I1cibnVJ5jTSRgywWeu7pOMfVusXRJHy0lWMdAcZh4GvEpMFLl81WFnfYW5hjpimXHQ2jyWR
+      zvPTnxXp9rqUFy6TKsyRS2os9U1yhSKuYyFJ8lvv/WFiEtzpdE69uOV5HpZlffATpIum3+9j
+      GMaF3Nv3fYbD4YVNws+L8QiQTCZPjOi5Lh4giRKeF3mBzotU6mJsds/zEEVxarv4vnNqL1C9
+      us8f/vAVbrQDIuID4tRzgFwuy6IrI4vwlrZhRERcOKceASzHZ6FceJd5iYg4d049Auixi5mM
+      RUS8Sz7gleCIiOlEAoiYaSIBRMw0kQAiZppIABEzTSSAiJkmEkDETBMJIGKmiQQQMdNEAoiY
+      aSIBRMw0kQAiZppTC2DQbbGyvkV0HCDiQ+LUu0HX11aR4zk8z8N1XVzXxXGcd5m3meciy/jF
+      a1Y+9Do+tQASySSVWhV7eRlFkpAkCVn+oM/UXzgXWcYvjkR+6HV86qdbunydpcujf0cnwiI+
+      FKJJcMRMEwkgYqaJBBAx00QCiJhpIgFEzDSRACJmmkgAETNNJICImSYSQMRMEwkgYqaJBBAx
+      00QCiJhpIgFEzDSRACJmmkgAETPNqQVQ2V7nyfN1vj+fmY6ImM6pD8Q47uh4nOf5eNGRyHMh
+      OhL57jm1ADRdg54NgoAUHYk8F6Ijke+eUz9dvrRAvjT6d3QiMuJDIZoER8w0kQAiZppIABEz
+      TSSAiJkmEkDETBMJIGKmiQQQMdNEAoiYaSIBRMw0kQAiZppIABEzTSSAiJkmEkDETBMJIGKm
+      eVkAvs/ak/v83W//iOlEG58jPmxeEoBPn6crdW5cyvCnb54H4a7Jd/cfnmvmIiLeNccciBHY
+      XXvI+tYjfvyP/vlhmM/6yiqmbeG60Vciz4voSOS75xgB6PyL//q/wgeMRHIcmi0UGbjV6Ejk
+      ORIdiXz3vGQCCYJIQhdZWV2n3ui+CCWdzfPRndtIonDOWYyIeHcc6wUatjs8uP8t9Xb/vPMT
+      EXGuvDwJ9m3+9PW3lBfm8X3/IvIUEXFuHGMCKXz5i58gCSKaqlxEniIizo1jTSAtkSYRMygV
+      M+edn4iIc+VYATS2Vuk7No+fbp13fiIizpVjfVyx7Dw/zJQQ3MgEiviwOWYE8Pn297/hN3//
+      B7p2tBUi4sPm2JXg27dvoZsqhbRx/jmKiDhHjp0DqPEY9//4W1Y3D847PxER58qxAvAccJ0h
+      oiidd34iIs6VYwWgJJLcvn4FX4gWwiI+bF5xIMZHkBQUMTovE/Fhc2wL71UrpOfmGfSH552f
+      iIhz5VgBZBeXWH3wiPJC8bzzExFxrrxiJXiD9Z0dNtf3xmG9doOd/eq5ZSwi4jx4aR3A9312
+      6i1+/Nmn5IqpUHh1b49iMQ+eh+eNToZFvB1836df7Yx/C5KIp/gXVsYvToR96HV8zEJYm+fP
+      6lRqa/zL/+bOONRxXXzfxfdBFASEw/8i3g7O0OY//E//x/h3LBPnp//DP73QMp6FOj5GAAl+
+      9svP8PiMhK6OQ3U9xuWr11AkAc8dFYwYeYneGsc1tIssY8/zZqKOXxKAIEjMLSy8FFE3Eujn
+      kqWIiPPjw5Z3RMQUIgFEzDSRACJmmkgAETNNJICImSYSQMRMEwkgYqaJBBAx00QCiJhpIgFE
+      zDSRACJmmkgAETNNJICImSYSQMRMc2oBmP0O27sVohelRHxInPoDULYHZreF7RURoiORZ0Jw
+      PQQr+PicL4l4nvdSvIss4xk+Enk8reo+kpFEFsCLjkSeCb/Rw324Of4tzGURlgsvxbvoMr7o
+      +58HpxZAtlCmbzlA0Pg/9ONy7wrvmDYVHYm8GE4tACOR5MW7oj/sQTFilviw5R0RMYVIABEz
+      TSSAiJkmEkDETBMJIGKmiQQQMdNEAoiYaSIBRMw0kQAiZppIABEzTSSAiJkmEkDETBMJIGKm
+      iQQQMdOcWgDtRpVKtfEu8xIRce6c+jxAMpOnu7uD72dwXZe9WodvvtoY/30+l+CLO/N4f/q3
+      wUWSgvjDf4PX/grfDsQjpr/kSWPIw/3gM6x3y/PcTiSQVlfGYX4igXvpMtvrq/jjI4MCS1ev
+      0b2/jl1rB/n74TX6A4va6v44LLOUx1gssNqwxmExWeByRkXa+wrBs8fhzvyXrPVXqJvBp2Cv
+      J28T3+9hfftdUGBXrqDevIH89EmQT13DvXaDr3//e4bDwTj8i5//HHvtAHO3Pg6L31lGPXLI
+      xPeP/xqk67p0/+Pf4LWD54z96j+jUenS2gnSLFyfQ1AdNu5/PQ5LFedYuPUJf3k/yLsqyfyX
+      H93l0cE+Xcsch98tzWHttWlsBs+evVzEjFs8HHwzDksrGa4n7/D3v/7/8P3R6XBBEPj5L/9T
+      hHoXhoflKYA/n6VX2cYZ9MbXJ+aWWasNub8W3Of2cp7bBfAe/bvgwRNlxJv/HLf+N+AHdSTl
+      /wmVJ7v0qkF5zN1dRhREBvvBFza1nIGUEHn2x78dh+mJFNc++xmd7VU8J0jz1AJoVPfY3N6j
+      NLeAJEnsN3r8L38VFM7P7i7xs4+XGPzt/xhcpCZIfv7f0av9Grf7aBwcT9zhu90q//YPvxuH
+      /fdf/py7i0vwx9+Pw4SFReRr13n+8H6ogVy5eYvWV4/p3F8bh8UulWhU2jz4v4NGcOtXnzA3
+      X+Srre44rBhXuF4wYP1vwArC5cUvedy6x6Pmt+OwvF5AW92j+b/+b+Ow5H/xZxjXroTzmcki
+      37rDr//D/0OtGlTu5198Sef+Ko2/fzAOW8rE0ZdKoUNFgiAgSRJHkSSJzl/9FfbaevCcX35J
+      5ekOz/82SPPTf/Uz5NSQP/5f//s47OoPv2Dxzqf8z7/7+yDvms6//OSH/Glnk61m0CFdzRVo
+      rOzz+P8N6vPun32OexN+XfnrIF7yJrezP+Cv/89/N64PSZL45T/+z3H2Gvj17osHQlku0t5e
+      pXewG+Q9W+Thei3Ubv7NP/kBd+Iy5kS7kRZ/jPHRnzPY+0t8NxBQsvRP2f5mlZ17QXmk5rIo
+      osz+N8ER0/ydeYxlLVQeuYVL3PrJf0Jt5QHOoD8OP7UAcsV5flqcB+ADPycdMUNEk+CImSYS
+      QMRMEwkgYqaJBBAx00QCiJhpIgFEzDSRACJmmkgAETNNJICImSYSQMRMEwkgYqaJBBAx00QC
+      iJhpTi2ArbXnfPPtA9zoI2ERHxCn3g7tigrlrITtgfIucxQRcY6cegTIJmL0PBnt5XMbERHf
+      W8YjQKfTGR9zOz6mRjGr0Wm38TyPuAr/7EeL4z9fKqdot9tYt//1xDUqXquFLX+EF8uPg70B
+      LBlx/uzajXHYYixGy3EQrlwNrk+l8VstsqW58VcUBaDVaiFcKaLFggFsIHpISYXyjy6Nw5R8
+      DKvf4bIRnOCJK/7o+tRdcIJjgX6nS4kF0IJvdYlDhWE2A//4V+Mw6/IlWoNhOJ8xA7/V4s4P
+      PqHfC04wDYYD/PkM2k+C5zRjMh3Hwsto4zBB8fH6vXDedZV+v4/3+edwNbhX13XQCvFQXCEh
+      4ysaVz7/5TgsO79Et9MJlbGmKLRaLS4ZCdJC0JM5wyFKTg+lKaU0fNvljvbpOCwnFmi1Wnz2
+      ky/G9SGKIq1WC18X8V88kyAgtloQz6AQ3Kdv2cyllVC7WcxpdBwBe6LdiOlF7FYLS/8S3wuO
+      s/rtLvGlDGUlaKeu7IHgoi4lgrAYDG0nVB5GKkOr1ULKzCEkgjQF/8RWfzyu6zIcDonH4y+F
+      Hz3ad9qwF5/lfNPrX3zU7ejH5s6Sp2lp+r4//tvrpAm89PG54+K2221SqdTUeL7v4/v+qdJ8
+      nXz2ej2SyWQozlnSdF0XURRfq46C5ingeW+/3qW/+Iu/+AteE9/3cRwHVVUB6Ha7qKo6qgDf
+      48GjR1j9Np6awtBGvfT2+jO6/SGN7pBs6lCt7pBHT1eRFJWYro0r8MnjR2hGHFVRxmFba8+x
+      kNFUFUkahfVbB2xU2iSMGLIsjQrBNfnr//h34LvksllEUaRZ3Wdja5fu0CKTSo7z+ejxIwSr
+      Q8s1SBnK5APSGwzQVHWUpufw8PFTEokkiiyP89SsH7C+sYUeT6Kro+t3N9d48ugeTqxANj7q
+      ET2zxb//u2/BNcnncqM0fZ9Hjx5hJJIoyihN33N5+Ogx3U4LPZ7Gc2w0TaO2u0lj4GLoGvKL
+      CrQ7/PWvvwbPJneYpmNbPHryhEarTT6XQxRFzH6Xnd09Wp0u8XhifH3rYIdKa4gR05HlUZjZ
+      rvBkq0671SCbSWPbo/sDdLpddE0bl93Dx49w+21MKUlcH9Xx5upzHEEJ1VGvUWGr2iFu6Ciy
+      fFhHw5fqCODp40eoMQNNDep9/flzHLNJy0uQPqyj+u4auy2TZrNFLpMe19HjJ08RJAUjpo+v
+      X1t5Rt9yScSNcdje5io9R0DX1LO7QR3bxnVdvBdK9X0kUaDdNzEmJgyiKFJvNEkmExNXC9iW
+      hXPkkLHVa/Lw2XooTBE8nj56QHsYxBUlmZ3NNfYPgjckICosl3NoejA6VWp1FK9PpTkM5900
+      wSgwl9Y4EUGgelBhe3vnpWfP5gsMesHh+nQ6jRpLkkuoweWywVxGI57Khq5v1KtsbG2Hwjx7
+      iOVJqHJQNfFkgt2NtcPP1B4ixVjIGRiJ9MTVPjgWvhCYhpqRALPFg4dPGNjBYC/JMpurT6g0
+      grcp+KJMp1YhnsyE8lSvVmh3+6EwSRBp9kwSenCvRCLG2uoqrhfcR5QldjZW2K8Fh/AHQ5ty
+      Pk0sngylqasSa5sT5eH7lOfLDFydcirooARJolbZI5MNl6dr29hOuC15roNt2aEwRZZYfXyP
+      Ws85uwC++dNX/MNXv+PZxuErTkQJXQFraNE3g8zEYjEc26bTCWxkfJ9avUalchBKUxDAPJJp
+      D0YPMjHS+Z6H59qEvrHuWTxZ36HbaY6DFhfm6ToS8zkjiCeIXL60wN7uLqYdLrRet0koyB+N
+      evYRoe7s7vH8yQN2KrUXGeL+4yekdJlmb8J2tdqs7Xdp1iqE8bHsoFELogQ+xPSwIBvVGpmU
+      Tq010QidHs93W7QawVsoZEXDGg6wnHDZJTIlrizPI0tB4bneqHFM2r+6quAhhuIBbO/scnAw
+      kXdBRFcFbNOkOwzyX6s1SWh+qJPyPH90Hz9I82B3nb4jjC2IF7S6A6zhpNB8Oq0GjUad4USF
+      qLKIIGmIk9n0PUzL5vn9r9lvB3M7rC4PVzZDz+n64Do2gvAabtBXUS4ViGeLLJVz47Bsroio
+      9NGk4LZGPEku75CM68HFokjSiOFPTMh83yNdWiZ1ZGoSi6dYWJQw1IlRRZIpFUu0W01YKB0G
+      Knx0fZlccW4cT5IVTMt6qWHVqnU0TGp9l0VVAtfmT//wJ7ZrPf78n/0qFHdhfo5kJhcKmy8X
+      qbRNriwvHIYIlAt51tfXuFW+HkSUNC7NZZhbvBS6fmlpCRQjFLY4V6BhwkQnSiKToV/vUs5O
+      zLlkg1vLecrzS+Mg0xyysLyMI4QbVrVaQxJ9TMcjpoz6PEWRuXTlOrnkxP0Vg0IuhegHja1S
+      qfDR3Y/ZP5jopDwHI5kF2SCpH9aH76MnUsRkn8mpiOO4fPLpZwyGQYdQWryKHKvjTzyk73uk
+      MhncyYUmQaTdapMvFlGkIFE9mSeTtPHsQOi+IJHNpEgZCsphBnzfJ5YpUHLCo5eq6Vy+fpuU
+      Lp19BGi0+wwHfYzDxuX7Pp7r4voCjUZ9XDie72PbDs1m0DPj2QhyjMW50jjIsUz2draxjrx6
+      pV5v4AyarG4FFeHaFqIksV+pTsQUiKkiWxtr455IUTU++fhjEvFwYysV89R6PqUXw6uk8Oln
+      n/OzT+/Q7BzpiTq9lyZQB/UWnj1A0w/TFQTi8SRzc6VQ7ySIMiKjcplMs15vsLO5Tm+icTRr
+      ezx6vo5z2Dh8x2Ll2SrO4UR3IlEU0WdjfZ2hfTixFmC3UqM1WcauTTqbwRU04mpQ3cNel06v
+      HzJXcE2era6xV61PBPXZ2Nyi1Z4YuRHY2d1FdPp0XvT2vkutWqVv+aFOql6t8HxllZgRlL2u
+      6biOQ28QvETMtU1qB5Xxs7xgbq7M3vYWphOE24MuK6urVFuB+WZZFpLgQyxHLjGqz5F1IJPN
+      JMeGg2sNef5shaFljRwHnJF00iCXLwaZG/Zp9waYwyGFQnFcOPVGC9exyGQnelHfx/NBnGgt
+      ihZDVWRSibCHKZVKIqlxlucDd6qPz+rqKsuXJnpWz6HWGpDOZonJo3QlSUbTNLQjQ+7ufpX5
+      jMR6JbDhnWEXKZ7FNgcTMUcTJscNhnvbMpmbmyNfKDM2132farNJMZvBmqiw4dAkmUrh+14o
+      zVQqRaE8T1wf5WvY79L3Da7NZ8cCEiSFRCZNIaFQ70zkyRnS6rukM2mUQ5NFFEcN7+qVy+No
+      lm1RrTWQBTdk1gmiiCJ41Ccadr1WZXlxGV0LRkpZ1Sjk8yzNFTh4YccLAjFFou8pwQggyqQT
+      Bv1ei54VPGe+UGJ+YWn8jCM8Wq02k3qW1RjesMXzjV0mqVZrOMM2XfMwTc+lWm9wafkSuhak
+      qSkSz5+v0xkEdSnJKt12m3a7NTaBJFWnUCiSN+CgY59dAGurz1jdDCaHaiyO1T7g2fPndF7M
+      AUQZVfRYXV2lUpvonSSVpC5QqTdDacZUiZX1rfHvF14nz3NDPZaiGdy4fo1samIyJQjE9Biu
+      B4p88uMV8hl2GxaZCausWa+ysbGBrEyaSz6CJCJMTEB836PbadNotUP2pQTsN7pkEsH1g8YO
+      O40B9XpjIkUfx3FxnEBUupEgk4y/5M6UcHm2vksyNpEnQSSm6/gISIdqkWSFdFxn76A2jqbq
+      cXLpBD4CTOQ0nkojKwrZVNDR5Arl0OQboFAsY5sDbBcKuez43r7nIcthCzqZTIKojs0sfB9F
+      0+m26gxDczoRx/XQjtyrtHSDX/zobigsnkiyePUO+fjhvUSJUqmEJBISEKJMYX6ehVwwgXdt
+      i2wuRzqdnZw6Mj+X5/7THbJx5WwC6LYalBYus1AK28a50iLLiwskJrxAyVSahYUF8pkJr4Xn
+      UGv1EXwndH0mV8BzArPAMQfYvogRT6HLk8N4k6ErETeCFlyr1ogZsZf858dRqdTIGx6b1aAX
+      TKWTrK6usr2zF4rb7w9DJpCqxej2+rhWH3f82lIBI6bh2wManWAilpm7RFwVyaUDD1irXkM3
+      4qRTk14ciMX0w0XJIM25+UXycZl699CL5fvsH9RJJGKkk2FPyurzJzxf2wyFeVaPdt8K8snI
+      ySCJIuHprogij551kt7QpNttM+lqT8Y12s063YnefmgOwXexX9zI96g3m7SbdYaTHizPYnVr
+      l4NaIFQA2+xTa7ZCv3d297BsJ/AyAqKkgOdgmhOTXd+jVjug1gzeGyopKq1mA1ULj/ybW7tI
+      bod6/4xeoEQ6iyQIWJMZASoHBxRKZSadCZ1mHcVIY+iT/naIqXLIvoPRxKlcDuYFim7g9hts
+      rK9Q6wUFGUtk6Df3aXUD0yCfz9Htdmm3W0xjbmEO09O4thiYVWo8x89/8imXlhaCiIIA9iDU
+      swLkMiky2cLYBBo090AUiWXK2M5khTvs7e5w0AgqJ5PLc//+faq1sAfMtm1UTefIug5d0yMT
+      D1Zay4UMrXaPVqcTivfjL37ORzevhsL0WBzX9UK9e7/dYmtrg73JEdn3sB0PfcJZ4NhD9na2
+      cbxwU9F1YxT3sLcfdOr0bAFREIOR13fY269SLM9jaBP1Lsp8duc6iXTgxnTMPtv7tdDLhRXN
+      IF8oMp9RafYD+833XDyf8RoFwMb6GjeuX0fTJoZzQNe0l9yg8wtzlBevkTXOOAKY5pB0OvmS
+      P3ZxaYlmox7yZKTyJSRngDnh9kPWMJIJyplwL9bqdOgcqdh4MoVqZCgkg4Lsd5o0OoNwYxdG
+      lTDothkenUkfQRBEJM+kZ00srVsDBDVBesI0wPfYrTaxzGBi3Os0Wd/aA4TAvlQ0ev0h5mBA
+      /IXQPYcHT9YpZhIUCoXJu7NQzod87r5r8WR146XhvV5r4Np9On1r4nIBURTptppBjwtsbm0y
+      nOiQmgc7PFrdGS0ECUGiyXSa8vwy5VwwArVru+y3hqG5iqKNFqZSyaA8zG6Tas8hm4wjHSq1
+      0+mgKDKy4NLpv3hLtESxWEDAPzTBXjyoT7tvo05YULJmsDRfeGn0iavw9b1V4hPbXva3Vuja
+      o5XhF/SHQwRBpN8Pe3zanQ6KGt6+2azX2dxYoTO0z+YGfaE2a0Jh7doeT9Z2cRDGkzOcAd98
+      94D2wObazVtBAs6Qh8/WuXXNHTeO7a0tbt7+iO3tYA4AEE9m0KttLNtDOTSt4pkCNy73yeSD
+      Hhzfw/V9ygvL6GrYa3OU3sBEkmXUiaFKlBR21h4hCjcpZA5NFkHkp19+MVpUmsjPpUvLSJIw
+      msgLoMRSzM+PClufsNe1mIEoWShyOD/FYpHmhCekflDjxtXL1Nv9sV0PsHDpMnNLSwjCRH/l
+      jTxtS0vLIReh61ihRatktsiVZYt6qx8SVb/TwnK90BaCriMzn9ZQj/SigmeztXdAMT/q6JrN
+      JpIkg92l2bMopzVKCy8m3oFbFlFmaWGevYMawuRqjSCSTsU4OKizPD8/DpYEkdxkXTJagTaH
+      bbpDh6SqgmdBrEDcaaOpQRnf+ehjfB8mkqPXbiBICoN+UMa9xh6OnuPzL36BET/jSvBoL4xI
+      OpUcu+hS+Tl+/Pmn3LqyFExY5RhffPEFP/3sbtgWlHWuzWeIp4I5REwVWVtbx7TC6wDDfpeY
+      YeBN9CSDdp2uNfJpT+SK4dAcL8WfhKZIGMlsqAHZwzaykaZS2Q/F3dvdoXekd+l3WnQH9thj
+      4/seg16bB/fv0xkcdgqizM0bN7h79y7pRNgNW2/1yKYnvV0eB80e+WQsNNnf2dzg3j/8gY1K
+      OxR3aFovTZjjqQKpid6y323hIJMv5EOu2UQmjyJ4WBO+9EGvjWKkwA2bDKIohBYmy0tXuHZ5
+      iWu3f0B5yip6p1nlm2++ZbtSD4U7lk0uF27siVSGyn7gBRq0a/Q8lWvXb5OLBZ1Hq1ElUyhh
+      WxOjhWuzsrbF6trqRFlkwXNpd5pj8fuuTavVotPpYLv+2UaAg/1deoMhwsDE830K2dFwKggi
+      uXwhFLdW2UXWYnRbHeL64YM7AwauzOLEJDZXWiBX4iXMQZ/tnT3yC1d4sYvbc2x8hJC97HgC
+      8ZiKaVovJzLBsN9BS+bJ5MM3k5QYmtwLbzHwPRzXY+XhNwjqLyinR/ktlfI8fr6FpmkszZcR
+      JYVOs4NntmgNHbKJkxtHs1HFQWauNMpDfm6RfLB+h3XYcckiFOcWcAOl4aAQV0Us2wICEYnu
+      EGvidzJT4MjOBgDM4YC9vR1imSIvmuH1W4EHxvOCHjueypI1jknkFMQSaW7dvLtNRdEAAAzk
+      SURBVEmpONHYPZuu6SI6DViaO7yfi2UOWVwMRhA9maPQH7KxtUdpYRkNQFT5+JNPOYppu9i9
+      GlKiGAovZOI0HW3cRhKFZT6ZaJpnGgFKcwvk8wVyudy48b+KXqfJ89XN0F4gy5O4slRGPDrj
+      O8Kw26DjKCyUS+NJF0CqtMzHt6+GfMzPVtdBkmm36sclNabfrHDv4ROePXvGYGKuUNvfoWd6
+      KJMuPkEik05RLpdCpknfdEgm4syVgkKfXyhTXLhKbkrjbzfrJFJZVGX6AYtEIk63b5IwXqTp
+      8Wx9B0mVqR+ZRDe7fXKZKR4wq8PTjQrlhSsslbInxwU6nS6SPD2fxzHoNBg6hEwt04VMXKVY
+      Ko/DGgd77FcbtLuBR27YqfNsfZtcsRSY069AVRU0I0k6GR5lW/UKKxs7+K+47myT4EGXBw8f
+      cnDEj38chq4TT2WQJxqQJAr0uz2ak/uDjqHb6SDJMoro0prYY1PZWmFrt8LGTmCuFDIp4rEY
+      uVzhuKTGxNNFFst5MplMqFFnCwW2N1c5mFgNxffo9EajVSEZNGxr0MbxZSaHoEajwdbGc5q9
+      sGfsKKlMjkwqiaZOOV/n+1iuh2s7E8afSDYRIx6LUSyWQ9GzqTi7oZXx40mmUviuGdqi8Cri
+      hoFtO1PjHYsPruvgTUysLdOk2myTiAUjvxYzyOVyIfHGUnl+/tMvuXp5+aX1iaPUD/bYP2jg
+      TZiOnmszFBNcLqV4lQLONgmOJVgoZqj3hlPjxuIJahvPiSfiGPrI5pcEqDV7FOb0E68tzF/i
+      uOasKCqN/TrXrwf7bgqluWNivowai5OTRiNHSJSqwc2rV0hlJ4d8AU1VSGaDYXx/a51+32Lh
+      yo3x9Va/Sa09JJkpk58yAgBouo5hJE6OJAgMOm30ZDpoBIJAeX7x2Oi7O7v4Rv7Yv41Rk9y+
+      njw5zgStRhXfElleKE+PfAQ9kcJc36HbK5KKx4DRLlrDMEKu4piRQFZjILxZn5wvzlNv9UNu
+      VBDI5/Ok05mXzgu84EwjgOd52I5PJjWlEhlt7nIdi9B2TlEmn0vQbp08ArwKWRJAfDMNC6KE
+      ruvouh7aiuEM2wwcieTEVgwfGA4HoUJ0fEjGdXb39scOAN91UGMGiqqM3YOvxudPX/+RR89W
+      psQb+b0FSZpqKrYaVRav3ODy4vyJ8V6XYqlETFNOPjH4CizTRJIV7Ikdqtl8kbsffRTq7SVZ
+      GdXHkUWr0+NhWhb1g30Gh44WUZKRBJ9nz57jv2IIONMI4DgOgiRjWycP9wAIAgtLl17yhMBo
+      D/2boMQSeE6dTqdNOhF7ozSO4voyg3aFRjtN/NCV+fjhfSxPZG5iIre4PHL7TfbDWrLA7eTJ
+      pleAwN27P2Tp0vLUmNl8jn+4/5xMOoOmvrrK0tkCKyu/J559/Z76JPYrNdqdNpKscvvq8SPP
+      sdg96u3hkZNd7wqBVrNBKlciNlFG/XaVk6zRs7lBXYudvX1kefp7IuxBD8sl1Ivd++47qrU6
+      7c70VdvjkCQZXOvIvp0z4Hu02h1yhRLyRD4TqRSpRIxq/c3y+SqsfouHT1enxmvUmsyVMuHz
+      AK/Ad206venxXofFhTmKC5dZLOemR55EUul12yRiGrp+spl7dnzSqTTGkWO6fROuXlrgVWPn
+      mecAyZiKrE4ftlQ9ht9qhiZDiWQS2XLQ49NNqOOwzQHxVA4j9pYEIIgUsima2w3a3S5zh3uc
+      lpavvJ30Q/isrG+SLi+dHMtzyc4tMuz30JPT7fZmq4Uhnd6+Pw1rK0/pihk+ufuao6yo8NHd
+      kWv1VTb420NgaJoUjLCF4XluyMQ9ypkPxMQNnVq9wfL8Mc77CRzHRhJ8Gu0eyUO//5WJNxa8
+      CZ5j43hMtY1fB0FSKJXnyWfi0yOf7U58dPsWSvLkCatntljZ6rOc9thvyFwpn+yPv/uDT9Hj
+      b2ZSvorly9fpOW/mBn33DX9Eu9tneWk+1MECFLIpGu0upcLxo9eZt0Nbx5zpPQ5NN/A9j2H/
+      zSa8x6ZpJMAxw4c6zogoKexurk51zb4N+sMhnXbnxDiSnmUxrzMQ4lwuTW/Y9WqV7ls2gSrV
+      KobxduZY74qtrS00I0G9Gl4Xqe2u8+D5Fq+agpxZADfufMIP70zvyQe9Dj4gvC17HTAHPWRF
+      Yb9amx75lNjDDr6osru3Pz3yGcmkU1jWFD+8IJDJFSgX81N704ePHyNpMZamjMaviyYLrG/v
+      TY94gdy4eolmo8nlq4FL3Pd90gs3+fz2Eq+aBJx5Iex3v/89T56vnRzR90lmC+iaxkLxNSdS
+      J6AbSfqdJr7rTY98StR4FsFqUzzlesKbYpkDdqstpDezLI5loVQgbhhUqievgr8uyVTmWO/d
+      +4SqxxCF0RaPF3iORa1WY2jar5wEn0kAWixBKZ+lWJji+vNd9vb2OKjW6PYGJ8d9DYa99mgj
+      3Vu0M61eHcHIcbC/Oz3yGajWaoiiwKWl6W7Q05LO5llaWnqlvfsmbK48ZrfafuklaO8dnstB
+      tRZ6LYqkaCiixc5ejVdZyWeeBAsQPvxxHKJMQldpNOtk+wPK+emntabi+8hGhsSgFnoDxNnS
+      dBm4OvM5sN/xK4BTiQS1WoNOrx860fa+Mb90Gcdbf2kn7PvG0HJYmC+/ZCbOL1ymuKC+so88
+      8xyg1+vQ7nanxounsnx09xOuL70l+9T3aDdrbGztUm9O34t0KjyXzY11ur0+/cH07R1nIZFK
+      4wP7eztT414kteoBSixJIT9909xFous6uUKZzJHNcL4/erfQzt7RdzKNOPMIoEoCjebJngwA
+      QRRwzR61Zo9i9s38/iFEiWTcYGgOsZ23NAeQVH7w8UfYnhA6PfUu6A+G5JIx+ry/vT9AeWGZ
+      Qb9Ltz9909xF0mtV+frhOqVigds3RkdCdzY38PDoDC2uXrt67HVnHgE8UeXm1el2bLfdYGuv
+      Qqf39tyLim5w4/p15opvr3faW3/Et49X2No7mB75DKyvrdLomjjmu3e3npVH977h2cb29IgX
+      SDyVJZeOU8hPHK7SVXoWzOVe7T4+8wjget5Lp5KOzWAiQzaVIj/l3MDrIADDfo/ewCL2xpuo
+      wuRLc4i2gWe2p0c+A9evX8NDmjhR/H7iOjZ6Ko8hnbmpvGMERPzQJDhbnCNbPOES3sIIkIhp
+      wQuTXoVr8mRlk2wqTv8U+89Py6DbZH2nQq3+9tYBlFiKXn0HNfYWzLQTULUYuqaG3mzwPuL7
+      PoNuG1l9v0018NmrNhn2p5vjk5xZAO1un0xqyt4TZwiyiiBJ0xd+XoNYMsulhRLLCwvTI58S
+      a9Di6eYBtcr7vfBzXsjK6BXxsfdcqAgS5XwKQXo9S+DMApgrlzGnbYfW0ty5toQRT1I6wR57
+      Ldwh9x6vUcjE2X+LCz8uCrkYiKpxDlt4vx+US0Uab8vT9o5o1vZodi2q1debu51ZAK1Oh057
+      ur3cru/z+Mkzdg/eUmP1fOLxGKbDiXvkXxdN1chksgj4r1w8mTVE8eX37bxvZPJzlLIGmczr
+      LQKeueVks3lK5ekLUbIaI5WMh168eiaUGDevXXk7aU3gWn1MT0L13NBZ4VnGsh0ymbe7w/Rd
+      kEim2NqrwpWTt5hPciYBeJ5Hv9tkzfa4dunkk0KKoqDH4lNfVnXRiLLG/PwC+bexVvGBYNs2
+      tndmY+Gd4nsOzXaPbPb1XOJneirXcZAVnWR8+kapQa/D+sY6teb0VeOLpNNusrr6nNY5bIf+
+      viAqWvidru8hvU6LTreH8pq7jc8kAEVVMTSZrd3pW4eTqTSGrpPPvdkLls4Fu89u0yZuaGSS
+      7/nmr3NEk0UQ3u91gO39OoYm0WlPcckf4cxP1e72mC9PWW0AWvUq6eIC+ileBHVhSBq5pIbj
+      KnR6A5Lx9/sQyHnRbnew/PfbBCrm0vhKHInph7MmObsA2h3UxPSZdyJbYFhvhd7z/t4hjPYA
+      +T6H78yMBODYFql4jLr5fjsE3nRH8JlkvbO7S2lhCfEUqrNMk067FX457vuGIJJJaLT7JpWD
+      6W9XmwUO9nfoD/r0Bqd49c33kDONAGa/S6c3QFR0FuZPfhmT61gMTIter08h/f7a16KscrC3
+      w/KVaxedlfeC+aUrAFyZdubje8qZBHD1+g3MoYlyCt9+PJEioTcQTrFx7kIRRErlube2ue5D
+      4NH972h3eyxevcVi6e2dNnsfOFNrXHv2hFa3x4OHj08VXxAl5Dd8y/B54TkWlXqL4SByg8Lh
+      t3YNg1Q6PfoM6QfGmUYASVFxrNFXVk7E7nHv4TNEwUNNv94s/bxR9ARzmdg73w36fcEyB6ia
+      BooRejXkh8KZRgDbsjmo7If2YB+L56LpGpIae7/3v/se1VqDTDZ3qo/szQLra2tsb++xf3D8
+      kcLvO/8/ajv+g8eRChMAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
