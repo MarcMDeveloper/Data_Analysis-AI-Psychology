@@ -3,9 +3,9 @@ Data_Analysis-AI-Psychology/data/
 
 ├── 1-Raw --> Original, untouched data
 
-│   ├──  Results of people behaviour and IA form
+    ├──  Results of people behaviour and IA form
 
-│   └──  Results of Psychologic form
+    └──  Results of Psychologic form
 
 └── 2-Processed --> Cleaned, transformed data
 
