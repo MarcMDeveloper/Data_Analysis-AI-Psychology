@@ -1,5 +1,5 @@
 # Description:
-Study of AI, new thecnologies and its efffects in people from a psychological point of view.
+Study of AI and its efffects in people from a psychological point of view.
 
 # Folder order:
 Data_Analysis-AI-Psychology/
