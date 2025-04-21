@@ -1,5 +1,5 @@
 # Jupyter notebooks for exploration/EDA
-Data_Analysis-AI-Psychology/docs/notebooks/
+Data_Analysis-AI-Psychology/notebooks/
 
 -   1- Clean data 
 
