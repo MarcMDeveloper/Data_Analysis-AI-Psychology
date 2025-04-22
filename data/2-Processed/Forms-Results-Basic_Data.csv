@@ -1,0 +1,61 @@
+ID,Age,Occupation,Gender,Education Level,Country,How often do you use AI tools?,AI_Use_List,Do you feel more productive when using AI tools?,Do you believe overuse of AI can negatively affect mental health or problem-solving skills?,Do you know someone that use AI as  conversational partner?, Creative writing or art, Entertainment, Others, Social media content, Work/professional tasks,Don't use,Entertainment,Inspiration for work,Others,Studying or learning,Work/professional tasks
+0,25-34,Analyst,Female,Master’s Degree,Germany,Daily,['Studying or learning'],Yes,Yes,Yes,0,0,0,0,0,0,0,0,0,1,0
+1,25-34,Lead Project Coordinator at A University,Male,Master’s Degree,Spain,Daily,['Work/professional tasks'],Yes,Yes,No,0,0,0,0,0,0,0,0,0,0,1
+2,25-34,Unemployed,Female,Bachelor’s Degree,Spain,Several times a week,['Studying or learning'],Yes,Yes,Yes,0,0,0,0,0,0,0,0,0,1,0
+3,18-24,Game Writer,Female,Bachelor’s Degree,Australia,Rarely,['Inspiration for work'],Yes,Yes,No,0,0,0,0,0,0,0,1,0,0,0
+4,18-24,Freelance artist,Trans,Bachelor’s Degree,Canada,Never,"[""Don't use""]",No,Yes,No,0,0,0,0,0,1,0,0,0,0,0
+5,25-34,3D Environment artist (videogames),Female,Bachelor’s Degree,Spain,Daily,['Studying or learning'],Yes,Yes,No,0,0,0,0,0,0,0,0,0,1,0
+6,25-34,Engineer software,Male,Master’s Degree,Spain,Several times a week,['Work/professional tasks'],Yes,Yes,Yes,0,0,0,0,0,0,0,0,0,0,1
+7,25-34,Business Development Analyst,Female,Master’s Degree,Brazil,Daily,['Studying or learning'],Yes,Yes,No,0,0,0,0,0,0,0,0,0,1,0
+8,25-34,Teacher,Female,Bachelor’s Degree,Australia,Several times a week,['Work/professional tasks'],Yes,No,No,0,0,0,0,0,0,0,0,0,0,1
+9,-18,Student,Male,High School,Spain,Several times a week,"['Studying or learning', ' Work/professional tasks']",No,No,No,0,0,0,0,1,0,0,0,0,1,0
+10,25-34,Real Estate,Male,Master’s Degree,Andorra,Daily,['Work/professional tasks'],Si,No,No,0,0,0,0,0,0,0,0,0,0,1
+11,65 +,Retiree,Female,Bachelor’s Degree,Spain,Daily,['Entertainment'],No,Si,Si,0,0,0,0,0,0,1,0,0,0,0
+12,35-44,"Autonomous, administrative",Female,Bachelor’s Degree,Spain,Several times a week,"['Work/professional tasks', ' Others']",Si,Si,Si,0,0,1,0,0,0,0,0,0,0,1
+13,25-34,Architect,Female,Bachelor’s Degree,Andorra,Several times a week,"['Work/professional tasks', ' Social media content']",Si,Si,No,0,0,0,1,0,0,0,0,0,0,1
+14,55-64,Researcher,Male,PhD or higher,Spain,Several times a week,"['Studying or learning', ' Work/professional tasks']",Si,No,No,0,0,0,0,1,0,0,0,0,1,0
+15,65 +,CEO,Male,Master’s Degree,Andorra,Several times a week,['Work/professional tasks'],Si,No,No,0,0,0,0,0,0,0,0,0,0,1
+16,25-34,Student,Male,Master’s Degree,United Kingdom,Daily,"['Studying or learning', ' Creative writing or art']",Si,Si,No,1,0,0,0,0,0,0,0,0,1,0
+17,55-64,Doctor,Male,PhD or higher,Spain,Rarely,['Work/professional tasks'],No,Si,No,0,0,0,0,0,0,0,0,0,0,1
+18,35-44,Businessman,Male,Master’s Degree,Andorra,Daily,"['Studying or learning', ' Work/professional tasks', ' Social media content']",Si,Si,Si,0,0,0,1,1,0,0,0,0,1,0
+19,25-34,Teacher,Female,Master’s Degree,Andorra,Rarely,['Others'],No,Si,No,0,0,0,0,0,0,0,0,1,0,0
+20,18-24,HR,Female,Bachelor’s Degree,Arab Emirates,Daily,['Work/professional tasks'],No,Si,No,0,0,0,0,0,0,0,0,0,0,1
+21,65 +,Pensioner,Male,Bachelor’s Degree,Andorra,Never,"[""Don't use""]",No,Si,No,0,0,0,0,0,1,0,0,0,0,0
+22,25-34,Dentist,Female,Master’s Degree,Spain,Rarely,['Entertainment'],No,Si,No,0,0,0,0,0,0,1,0,0,0,0
+23,45-54,Housewife,Female,Other,Spain,Several times a week,['Others'],Si,No,No,0,0,0,0,0,0,0,0,1,0,0
+24,18-24,Software developer,Female,Bachelor’s Degree,Argentina,Daily,['Work/professional tasks'],Si,Si,Si,0,0,0,0,0,0,0,0,0,0,1
+25,18-24,Programmer,Female,Bachelor’s Degree,Argentina,Daily,['Work/professional tasks'],Si,Si,No,0,0,0,0,0,0,0,0,0,0,1
+26,45-54,Housewife,Female,Other,Argentina,Rarely,['Others'],No,Si,Si,0,0,0,0,0,0,0,0,1,0,0
+27,18-24,Student,Female,Bachelor’s Degree,Argentina,Several times a week,"['Studying or learning', ' Entertainment']",No,Si,Si,0,1,0,0,0,0,0,0,0,1,0
+28,18-24,Student,Male,Bachelor’s Degree,Argentina,Daily,"['Studying or learning', ' Social media content', ' Entertainment']",Si,Si,Si,0,1,0,1,0,0,0,0,0,1,0
+29,25-34,Counter,Male,Bachelor’s Degree,Argentina,Daily,['Studying or learning'],No,Si,Si,0,0,0,0,0,0,0,0,0,1,0
+30,18-24,Employee,Female,High School,Argentina,Daily,"['Studying or learning', ' Work/professional tasks', ' Entertainment']",Si,No,Si,0,1,0,0,1,0,0,0,0,1,0
+31,-18,Student,Male,High School,Argentina,Daily,"['Studying or learning', ' Entertainment']",Si,No,No,0,1,0,0,0,0,0,0,0,1,0
+32,18-24,Mechanic,Male,Bachelor’s Degree,Argentina,Rarely,"['Studying or learning', ' Entertainment', ' Others']",No,Si,No,0,1,1,0,0,0,0,0,0,1,0
+33,35-44,Technical Support Head,Male,Bachelor’s Degree,Argentina,Several times a week,"['Studying or learning', ' Work/professional tasks', ' Others']",Si,No,No,0,0,1,0,1,0,0,0,0,1,0
+34,25-34,Programmer,Male,Bachelor’s Degree,Argentina,Several times a week,"['Studying or learning', ' Work/professional tasks', ' Creative writing or art']",Si,Si,No,1,0,0,0,1,0,0,0,0,1,0
+35,18-24,Student,Female,Bachelor’s Degree,Argentina,Several times a week,"['Studying or learning', ' Work/professional tasks', ' Social media content']",Si,Si,No,0,0,0,1,1,0,0,0,0,1,0
+36,18-24,Student,Female,Other,Argentina,Several times a week,['Studying or learning'],Si,No,Si,0,0,0,0,0,0,0,0,0,1,0
+37,35-44,Development manager,Female,Bachelor’s Degree,Argentina,Daily,['Work/professional tasks'],Si,Si,No,0,0,0,0,0,0,0,0,0,0,1
+38,45-54,Medical,Female,Bachelor’s Degree,Argentina,Never,"[""Don't use""]",No,Si,Si,0,0,0,0,0,1,0,0,0,0,0
+39,18-24,Student,Male,High School,Argentina,Several times a week,"['Studying or learning', ' Entertainment']",No,Si,No,0,1,0,0,0,0,0,0,0,1,0
+40,25-34,Student,Female,Bachelor’s Degree,Argentina,Rarely,"['Studying or learning', ' Others']",Si,No,Si,0,0,1,0,0,0,0,0,0,1,0
+41,25-34,IT support,Female,Bachelor’s Degree,Argentina,Daily,"['Studying or learning', ' Work/professional tasks']",Si,Si,No,0,0,0,0,1,0,0,0,0,1,0
+42,25-34,Psychology,Female,Master’s Degree,Andorra,Daily,"['Studying or learning', ' Work/professional tasks', ' Entertainment']",Si,Si,Si,0,1,0,0,1,0,0,0,0,1,0
+43,25-34,Illustrator,Male,Bachelor’s Degree,Andorra,Rarely,"[""Don't use""]",No,Si,No,0,0,0,0,0,1,0,0,0,0,0
+44,25-34,Big Accounts Management (Commercial Dept),Male,Bachelor’s Degree,Spain,Rarely,"['Studying or learning', ' Work/professional tasks']",No,Si,No,0,0,0,0,1,0,0,0,0,1,0
+45,18-24,Student in Graphic Design,Male,Bachelor’s Degree,Argentina,Rarely,"['Studying or learning', ' Creative writing or art']",No,No,No,1,0,0,0,0,0,0,0,0,1,0
+46,35-44,Developer,Male,Bachelor’s Degree,Argentina,Daily,"['Studying or learning', ' Work/professional tasks', ' Entertainment']",Si,Si,No,0,1,0,0,1,0,0,0,0,1,0
+47,45-54,Employee,Female,High School,Argentina,Never,"[""Don't use""]",No,No,Si,0,0,0,0,0,1,0,0,0,0,0
+48,35-44,Software developer,Female,Bachelor’s Degree,Argentina,Daily,"['Studying or learning', ' Work/professional tasks', ' Entertainment', ' Others']",Si,No,No,0,1,1,0,1,0,0,0,0,1,0
+49,45-54,Unemployed,Female,Master’s Degree,Spain,Rarely,['Others'],Si,Si,No,0,0,0,0,0,0,0,0,1,0,0
+50,45-54,Management,Male,Bachelor’s Degree,Spain,Several times a week,"['Work/professional tasks', ' Others']",Si,No,No,0,0,1,0,0,0,0,0,0,0,1
+51,35-44,IT technician,Male,Bachelor’s Degree,Argentina,Several times a week,"['Studying or learning', ' Work/professional tasks', ' Entertainment']",Si,Si,Si,0,1,0,0,1,0,0,0,0,1,0
+52,55-64,administrative,Male,High School,Argentina,Several times a week,['Entertainment'],No,No,No,0,0,0,0,0,0,1,0,0,0,0
+53,25-34,Comics author,Trans,Other,Spain,Never,"[""Don't use""]",No,Si,No,0,0,0,0,0,1,0,0,0,0,0
+54,25-34,Systems technician,Male,Other,Andorra,Rarely,"['Work/professional tasks', ' Others']",No,Si,No,0,0,1,0,0,0,0,0,0,0,1
+55,18-24,Student,Female,Bachelor’s Degree,Spain,Never,"[""Don't use""]",No,Si,No,0,0,0,0,0,1,0,0,0,0,0
+56,18-24,Student,Male,Bachelor’s Degree,Colombia,Several times a week,"['Studying or learning', ' Creative writing or art', ' Entertainment']",No,Si,Si,1,1,0,0,0,0,0,0,0,1,0
+57,25-34,Biologist,Female,Master’s Degree,Spain,Several times a week,['Work/professional tasks'],No,Si,Si,0,0,0,0,0,0,0,0,0,0,1
+58,25-34,Unemployed,Male,Bachelor’s Degree,Andorra,Several times a week,"['Work/professional tasks', ' Entertainment']",Si,No,Si,0,1,0,0,0,0,0,0,0,0,1
+59,25-34,Unemployed,Female,Other,Spain,Several times a week,"['Entertainment', ' Others']",Si,No,Si,0,0,1,0,0,0,1,0,0,0,0

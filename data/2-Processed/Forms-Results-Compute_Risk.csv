@@ -1,0 +1,61 @@
+ID,Education Level,How often do you use AI tools?,What do you primarily use AI tools for?,Do you feel more productive when using AI tools?,Do you believe overuse of AI can negatively affect mental health or problem-solving skills?,Do you know someone that use AI as  conversational partner?,I feel more confident in solving problems on my own without AI assistance.,Using AI makes me feel mentally lazy.,Relying on AI helps reduce my stress.,AI tools make me second-guess my own knowledge or decisions.,Its recomendable for people to use AI as conversational partner
+0,Master’s Degree,Daily,['Studying or learning'],Yes,Yes,Yes,Agree,Disagree,Agree,Agree,Neutral
+1,Master’s Degree,Daily,['Work/professional tasks'],Yes,Yes,No,Strongly Disagree,Disagree,Neutral,Strongly Disagree,Disagree
+2,Bachelor’s Degree,Several times a week,['Studying or learning'],Yes,Yes,Yes,Strongly Agree,Strongly Agree,Agree,Agree,Neutral
+3,Bachelor’s Degree,Rarely,['Inspiration for work'],Yes,Yes,No,Agree,Disagree,Strongly Agree,Disagree,Agree
+4,Bachelor’s Degree,Never,"[""Don't use""]",No,Yes,No,Strongly Agree,Strongly Agree,Strongly Disagree,Neutral,Strongly Disagree
+5,Bachelor’s Degree,Daily,['Studying or learning'],Yes,Yes,No,Agree,Neutral,Agree,Strongly Agree,Strongly Disagree
+6,Master’s Degree,Several times a week,['Work/professional tasks'],Yes,Yes,Yes,Agree,Neutral,Neutral,Strongly Disagree,Neutral
+7,Master’s Degree,Daily,['Studying or learning'],Yes,Yes,No,Disagree,Disagree,Neutral,Neutral,Neutral
+8,Bachelor’s Degree,Several times a week,['Work/professional tasks'],Yes,No,No,Strongly Agree,Neutral,Agree,Neutral,Agree
+9,High School,Several times a week,"['Studying or learning', ' Work/professional tasks']",No,No,No,Agree,Agree,Agree,Neutral,Neutral
+10,Master’s Degree,Daily,['Work/professional tasks'],Yes,No,No,Strongly Disagree,Strongly Disagree,Neutral,Strongly Disagree,Agree
+11,Bachelor’s Degree,Daily,['Entertainment'],No,Yes,Yes,Agree,Agree,Neutral,Agree,Strongly Disagree
+12,Bachelor’s Degree,Several times a week,"['Work/professional tasks', ' Others']",Yes,Yes,Yes,Neutral,Strongly Agree,Agree,Neutral,Neutral
+13,Bachelor’s Degree,Several times a week,"['Work/professional tasks', ' Social media content']",Yes,Yes,No,Disagree,Neutral,Disagree,Strongly Disagree,Disagree
+14,PhD or higher,Several times a week,"['Studying or learning', ' Work/professional tasks']",Yes,No,No,Disagree,Agree,Neutral,Disagree,Neutral
+15,Master’s Degree,Several times a week,['Work/professional tasks'],Yes,No,No,Neutral,Strongly Disagree,Neutral,Disagree,Strongly Disagree
+16,Master’s Degree,Daily,"['Studying or learning', ' Creative writing or art']",Yes,Yes,No,Disagree,Agree,Neutral,Agree,Strongly Disagree
+17,PhD or higher,Rarely,['Work/professional tasks'],No,Yes,No,Agree,Neutral,Neutral,Agree,Disagree
+18,Master’s Degree,Daily,"['Studying or learning', ' Work/professional tasks', ' Social media content']",Yes,Yes,Yes,Neutral,Strongly Disagree,Disagree,Strongly Disagree,Neutral
+19,Master’s Degree,Rarely,['Others'],No,Yes,No,Strongly Agree,Agree,Strongly Disagree,Agree,Strongly Disagree
+20,Bachelor’s Degree,Daily,['Work/professional tasks'],No,Yes,No,Agree,Strongly Agree,Agree,Agree,Neutral
+21,Bachelor’s Degree,Never,"[""Don't use""]",No,Yes,No,Strongly Agree,Agree,Disagree,Disagree,Strongly Disagree
+22,Master’s Degree,Rarely,['Entertainment'],No,Yes,No,Agree,Agree,Disagree,Agree,Strongly Disagree
+23,Other,Several times a week,['Others'],Yes,No,No,Disagree,Disagree,Neutral,Disagree,Neutral
+24,Bachelor’s Degree,Daily,['Work/professional tasks'],Yes,Yes,Yes,Strongly Agree,Agree,Neutral,Disagree,Strongly Disagree
+25,Bachelor’s Degree,Daily,['Work/professional tasks'],Yes,Yes,No,Agree,Agree,Disagree,Disagree,Strongly Disagree
+26,Other,Rarely,['Others'],No,Yes,Yes,Agree,Strongly Agree,Disagree,Agree,Strongly Disagree
+27,Bachelor’s Degree,Several times a week,"['Studying or learning', ' Entertainment']",No,Yes,Yes,Neutral,Agree,Neutral,Disagree,Neutral
+28,Bachelor’s Degree,Daily,"['Studying or learning', ' Social media content', ' Entertainment']",Yes,Yes,Yes,Neutral,Disagree,Strongly Agree,Neutral,Disagree
+29,Bachelor’s Degree,Daily,['Studying or learning'],No,Yes,Yes,Disagree,Strongly Agree,Agree,Strongly Agree,Strongly Disagree
+30,High School,Daily,"['Studying or learning', ' Work/professional tasks', ' Entertainment']",Yes,No,Yes,Neutral,Neutral,Agree,Neutral,Agree
+31,High School,Daily,"['Studying or learning', ' Entertainment']",Yes,No,No,Neutral,Disagree,Neutral,Disagree,Agree
+32,Bachelor’s Degree,Rarely,"['Studying or learning', ' Entertainment', ' Others']",No,Yes,No,Strongly Agree,Neutral,Neutral,Disagree,Disagree
+33,Bachelor’s Degree,Several times a week,"['Studying or learning', ' Work/professional tasks', ' Others']",Yes,No,No,Disagree,Disagree,Neutral,Disagree,Neutral
+34,Bachelor’s Degree,Several times a week,"['Studying or learning', ' Work/professional tasks', ' Creative writing or art']",Yes,Yes,No,Agree,Disagree,Neutral,Agree,Neutral
+35,Bachelor’s Degree,Several times a week,"['Studying or learning', ' Work/professional tasks', ' Social media content']",Yes,Yes,No,Agree,Disagree,Neutral,Disagree,Strongly Disagree
+36,Other,Several times a week,['Studying or learning'],Yes,No,Yes,Neutral,Agree,Agree,Neutral,Disagree
+37,Bachelor’s Degree,Daily,['Work/professional tasks'],Yes,Yes,No,Strongly Agree,Agree,Neutral,Neutral,Disagree
+38,Bachelor’s Degree,Never,"[""Don't use""]",No,Yes,Yes,Strongly Agree,Strongly Agree,Disagree,Disagree,Strongly Disagree
+39,High School,Several times a week,"['Studying or learning', ' Entertainment']",No,Yes,No,Neutral,Neutral,Neutral,Neutral,Neutral
+40,Bachelor’s Degree,Rarely,"['Studying or learning', ' Others']",Yes,No,Yes,Neutral,Strongly Disagree,Neutral,Strongly Disagree,Neutral
+41,Bachelor’s Degree,Daily,"['Studying or learning', ' Work/professional tasks']",Yes,Yes,No,Disagree,Agree,Disagree,Disagree,Neutral
+42,Master’s Degree,Daily,"['Studying or learning', ' Work/professional tasks', ' Entertainment']",Yes,Yes,Yes,Neutral,Agree,Strongly Disagree,Agree,Disagree
+43,Bachelor’s Degree,Rarely,"[""Don't use""]",No,Yes,No,Neutral,Agree,Neutral,Agree,Neutral
+44,Bachelor’s Degree,Rarely,"['Studying or learning', ' Work/professional tasks']",No,Yes,No,Neutral,Disagree,Disagree,Disagree,Strongly Disagree
+45,Bachelor’s Degree,Rarely,"['Studying or learning', ' Creative writing or art']",No,No,No,Strongly Agree,Strongly Agree,Strongly Disagree,Neutral,Strongly Disagree
+46,Bachelor’s Degree,Daily,"['Studying or learning', ' Work/professional tasks', ' Entertainment']",Yes,Yes,No,Neutral,Disagree,Agree,Disagree,Strongly Disagree
+47,High School,Never,"[""Don't use""]",No,No,Yes,Neutral,Neutral,Neutral,Neutral,Neutral
+48,Bachelor’s Degree,Daily,"['Studying or learning', ' Work/professional tasks', ' Entertainment', ' Others']",Yes,No,No,Neutral,Neutral,Agree,Neutral,Neutral
+49,Master’s Degree,Rarely,['Others'],Yes,Yes,No,Strongly Agree,Strongly Agree,Disagree,Agree,Strongly Disagree
+50,Bachelor’s Degree,Several times a week,"['Work/professional tasks', ' Others']",Yes,No,No,Strongly Disagree,Disagree,Strongly Disagree,Strongly Disagree,Disagree
+51,Bachelor’s Degree,Several times a week,"['Studying or learning', ' Work/professional tasks', ' Entertainment']",Yes,Yes,Yes,Agree,Disagree,Agree,Disagree,Disagree
+52,High School,Several times a week,['Entertainment'],No,No,No,Agree,Disagree,Neutral,Neutral,Disagree
+53,Other,Never,"[""Don't use""]",No,Yes,No,Strongly Agree,Neutral,Strongly Disagree,Strongly Disagree,Disagree
+54,Other,Rarely,"['Work/professional tasks', ' Others']",No,Yes,No,Strongly Agree,Strongly Agree,Strongly Disagree,Strongly Disagree,Neutral
+55,Bachelor’s Degree,Never,"[""Don't use""]",No,Yes,No,Strongly Agree,Agree,Strongly Disagree,Agree,Disagree
+56,Bachelor’s Degree,Several times a week,"['Studying or learning', ' Creative writing or art', ' Entertainment']",No,Yes,Yes,Agree,Neutral,Neutral,Neutral,Strongly Disagree
+57,Master’s Degree,Several times a week,['Work/professional tasks'],No,Yes,Yes,Strongly Agree,Neutral,Neutral,Agree,Strongly Disagree
+58,Bachelor’s Degree,Several times a week,"['Work/professional tasks', ' Entertainment']",Yes,No,Yes,Neutral,Disagree,Agree,Disagree,Agree
+59,Other,Several times a week,"['Entertainment', ' Others']",Yes,No,Yes,Neutral,Neutral,Agree,Neutral,Agree

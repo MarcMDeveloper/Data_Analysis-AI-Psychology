@@ -5,7 +5,7 @@ ID,Age,Occupation,Gender,Education Level,Country,How often do you use AI tools?,
 Current LLMs give you some of that but you need to triple check each result, which isnt ideal. "
 2,25-34,Unemployed,Female,Bachelor’s Degree,Spain,Several times a week,['Studying or learning'],Yes,Yes,Yes,Strongly Agree,Strongly Agree,Agree,Agree,Neutral,
 3,18-24,Game Writer,Female,Bachelor’s Degree,Australia,Rarely,['Inspiration for work'],Yes,Yes,No,Agree,Disagree,Strongly Agree,Disagree,Agree,One that assists with inventory in warehousing using spacial assistance instead of manual input. Using it for work environments and data collation is more useful to people than art theft and writing theft.
-4,18-24,Freelance artist,Trans,Bachelor’s Degree,Canada,Never,"[""Don't use""]",No,Yes,No,Strongly Agree,Strongly Agree,Strongly Disagree,Neutral,Strongly Disagree,
+4,18-24,Freelance artist,trans,Bachelor’s Degree,Canada,Never,"[""Don't use""]",No,Yes,No,Strongly Agree,Strongly Agree,Strongly Disagree,Neutral,Strongly Disagree,
 5,25-34,3D Environment artist (videogames),Female,Bachelor’s Degree,Spain,Daily,['Studying or learning'],Yes,Yes,No,Agree,Neutral,Agree,Strongly Agree,Strongly Disagree,"Personally, I use it to debate and explore new philosophical and political ideas. I believe that before continuing to create more AI tools, we should educate ourselves to rethink the methodology (why the hell AI is being forbiden in schoosl!? It's such a nice tool!!!). Technology moves faster than our education, our laws, and our ability to change society."
 6,25-34,Engineer software,Male,Master’s Degree,Spain,Several times a week,['Work/professional tasks'],Yes,Yes,Yes,Agree,Neutral,Neutral,Strongly Disagree,Neutral,"I use AI as glorified documentation while programming and as a helper while learning russian or studying mathematics or chemistry.
 
@@ -15,53 +15,53 @@ Further development in these areas would be nice."
 7,25-34,Business Development Analyst,Female,Master’s Degree,Brazil,Daily,['Studying or learning'],Yes,Yes,No,Disagree,Disagree,Neutral,Neutral,Neutral,
 8,25-34,Teacher,Female,Bachelor’s Degree,Australia,Several times a week,['Work/professional tasks'],Yes,No,No,Strongly Agree,Neutral,Agree,Neutral,Agree,happy with what AI does now
 9,-18,Student,Male,High School,Spain,Several times a week,"['Studying or learning', ' Work/professional tasks']",No,No,No,Agree,Agree,Agree,Neutral,Neutral,para las matematicas
-10,25-34,Real Estate,Male,Master’s Degree,Andorra,Daily,['Work/professional tasks'],Si,No,No,Strongly Disagree,Strongly Disagree,Neutral,Strongly Disagree,Agree,Resumir leyes correctamente
-11,65 +,Retiree,Female,Bachelor’s Degree,Spain,Daily,['Entertainment'],No,Si,Si,Agree,Agree,Neutral,Agree,Strongly Disagree,
-12,35-44,"Autonomous, administrative",Female,Bachelor’s Degree,Spain,Several times a week,"['Work/professional tasks', ' Others']",Si,Si,Si,Neutral,Strongly Agree,Agree,Neutral,Neutral,Organizar viajes
-13,25-34,Architect,Female,Bachelor’s Degree,Andorra,Several times a week,"['Work/professional tasks', ' Social media content']",Si,Si,No,Disagree,Neutral,Disagree,Strongly Disagree,Disagree,
-14,55-64,Researcher,Male,PhD or higher,Spain,Several times a week,"['Studying or learning', ' Work/professional tasks']",Si,No,No,Disagree,Agree,Neutral,Disagree,Neutral,
-15,65 +,CEO,Male,Master’s Degree,Andorra,Several times a week,['Work/professional tasks'],Si,No,No,Neutral,Strongly Disagree,Neutral,Disagree,Strongly Disagree,
-16,25-34,Student,Male,Master’s Degree,United Kingdom,Daily,"['Studying or learning', ' Creative writing or art']",Si,Si,No,Disagree,Agree,Neutral,Agree,Strongly Disagree,
-17,55-64,Doctor,Male,PhD or higher,Spain,Rarely,['Work/professional tasks'],No,Si,No,Agree,Neutral,Neutral,Agree,Disagree,No se
-18,35-44,Businessman,Male,Master’s Degree,Andorra,Daily,"['Studying or learning', ' Work/professional tasks', ' Social media content']",Si,Si,Si,Neutral,Strongly Disagree,Disagree,Strongly Disagree,Neutral,
-19,25-34,Teacher,Female,Master’s Degree,Andorra,Rarely,['Others'],No,Si,No,Strongly Agree,Agree,Strongly Disagree,Agree,Strongly Disagree,
-20,18-24,HR,Female,Bachelor’s Degree,Arab Emirates,Daily,['Work/professional tasks'],No,Si,No,Agree,Strongly Agree,Agree,Agree,Neutral,"Tenga empatía real: no solo que entienda palabras, sino que sepa cómo apoyarte emocionalmente según tu personalidad."
-21,65 +,Pensioner,Male,Bachelor’s Degree,Andorra,Never,"[""Don't use""]",No,Si,No,Strongly Agree,Agree,Disagree,Disagree,Strongly Disagree,
-22,25-34,Dentist,Female,Master’s Degree,Spain,Rarely,['Entertainment'],No,Si,No,Agree,Agree,Disagree,Agree,Strongly Disagree,Ninguna
-23,45-54,Housewife,Female,Other,Spain,Several times a week,['Others'],Si,No,No,Disagree,Disagree,Neutral,Disagree,Neutral,?
-24,18-24,Software developer,Female,Bachelor’s Degree,Argentina,Daily,['Work/professional tasks'],Si,Si,Si,Strongly Agree,Agree,Neutral,Disagree,Strongly Disagree,"Una aplicación que se encargará de la sección de administración de una empresa con únicamente el input necesario de parte del usuario, que este al tanto de leyes y resoluciones."
-25,18-24,Programmer,Female,Bachelor’s Degree,Argentina,Daily,['Work/professional tasks'],Si,Si,No,Agree,Agree,Disagree,Disagree,Strongly Disagree,
-26,45-54,Housewife,Female,Other,Argentina,Rarely,['Others'],No,Si,Si,Agree,Strongly Agree,Disagree,Agree,Strongly Disagree,
-27,18-24,Student,Female,Bachelor’s Degree,Argentina,Several times a week,"['Studying or learning', ' Entertainment']",No,Si,Si,Neutral,Agree,Neutral,Disagree,Neutral,Cualquiera que me ayude a resolver problemas matematicos de manera exacta
-28,18-24,Student,Male,Bachelor’s Degree,Argentina,Daily,"['Studying or learning', ' Social media content', ' Entertainment']",Si,Si,Si,Neutral,Disagree,Strongly Agree,Neutral,Disagree,
-29,25-34,Counter,Male,Bachelor’s Degree,Argentina,Daily,['Studying or learning'],No,Si,Si,Disagree,Strongly Agree,Agree,Strongly Agree,Strongly Disagree,Nada
-30,18-24,Employee,Female,High School,Argentina,Daily,"['Studying or learning', ' Work/professional tasks', ' Entertainment']",Si,No,Si,Neutral,Neutral,Agree,Neutral,Agree,No se
-31,-18,Student,Male,High School,Argentina,Daily,"['Studying or learning', ' Entertainment']",Si,No,No,Neutral,Disagree,Neutral,Disagree,Agree,Una app para crear películas 😎
-32,18-24,Mechanic,Male,Bachelor’s Degree,Argentina,Rarely,"['Studying or learning', ' Entertainment', ' Others']",No,Si,No,Strongly Agree,Neutral,Neutral,Disagree,Disagree,Una IA que ayudara con los procesos de conección con la Ecu de un vehiculo ya que dependiendo por ej del escaner que se use para ver las fallas de un vehiculo puede o no obtener acceso a los datos del motor (Esto tambien varia dependiendo de que marca sea el vehiculo). Seria practico un escaner que posea una IA y que esta ayudara a realizar la coneccion entre Others procesos.
-33,35-44,Technical Support Head,Male,Bachelor’s Degree,Argentina,Several times a week,"['Studying or learning', ' Work/professional tasks', ' Others']",Si,No,No,Disagree,Disagree,Neutral,Disagree,Neutral,
-34,25-34,Programmer,Male,Bachelor’s Degree,Argentina,Several times a week,"['Studying or learning', ' Work/professional tasks', ' Creative writing or art']",Si,Si,No,Agree,Disagree,Neutral,Agree,Neutral,"Una aplicación para tomar decisiones políticas y o condenatorias, quizá haya menos corrupción y justicia, pero quien sabe."
-35,18-24,Student,Female,Bachelor’s Degree,Argentina,Several times a week,"['Studying or learning', ' Work/professional tasks', ' Social media content']",Si,Si,No,Agree,Disagree,Neutral,Disagree,Strongly Disagree,
-36,18-24,Student,Female,Other,Argentina,Several times a week,['Studying or learning'],Si,No,Si,Neutral,Agree,Agree,Neutral,Disagree,
-37,35-44,Development manager,Female,Bachelor’s Degree,Argentina,Daily,['Work/professional tasks'],Si,Si,No,Strongly Agree,Agree,Neutral,Neutral,Disagree,
-38,45-54,Medical,Female,Bachelor’s Degree,Argentina,Never,"[""Don't use""]",No,Si,Si,Strongly Agree,Strongly Agree,Disagree,Disagree,Strongly Disagree,Nada 
-39,18-24,Student,Male,High School,Argentina,Several times a week,"['Studying or learning', ' Entertainment']",No,Si,No,Neutral,Neutral,Neutral,Neutral,Neutral,Una IA que recopile todos los estudios y avances médicos por más nuevos o viejos que sean y que los puede traducir a diversos idiomas 
-40,25-34,Student,Female,Bachelor’s Degree,Argentina,Rarely,"['Studying or learning', ' Others']",Si,No,Si,Neutral,Strongly Disagree,Neutral,Strongly Disagree,Neutral,
-41,25-34,IT support,Female,Bachelor’s Degree,Argentina,Daily,"['Studying or learning', ' Work/professional tasks']",Si,Si,No,Disagree,Agree,Disagree,Disagree,Neutral,Chat gpt
-42,25-34,Psychology,Female,Master’s Degree,Andorra,Daily,"['Studying or learning', ' Work/professional tasks', ' Entertainment']",Si,Si,Si,Neutral,Agree,Strongly Disagree,Agree,Disagree,Editor de fotos fácil y rápido.
-43,25-34,Illustrator,Male,Bachelor’s Degree,Andorra,Rarely,"[""Don't use""]",No,Si,No,Neutral,Agree,Neutral,Agree,Neutral,
-44,25-34,Big Accounts Management (Commercial Dept),Male,Bachelor’s Degree,Spain,Rarely,"['Studying or learning', ' Work/professional tasks']",No,Si,No,Neutral,Disagree,Disagree,Disagree,Strongly Disagree,
+10,25-34,Real Estate,Male,Master’s Degree,Andorra,Daily,['Work/professional tasks'],Yes,No,No,Strongly Disagree,Strongly Disagree,Neutral,Strongly Disagree,Agree,Resumir leyes correctamente
+11,65 +,Retiree,Female,Bachelor’s Degree,Spain,Daily,['Entertainment'],No,Yes,Yes,Agree,Agree,Neutral,Agree,Strongly Disagree,
+12,35-44,"Autonomous, administrative",Female,Bachelor’s Degree,Spain,Several times a week,"['Work/professional tasks', ' Others']",Yes,Yes,Yes,Neutral,Strongly Agree,Agree,Neutral,Neutral,Organizar viajes
+13,25-34,Architect,Female,Bachelor’s Degree,Andorra,Several times a week,"['Work/professional tasks', ' Social media content']",Yes,Yes,No,Disagree,Neutral,Disagree,Strongly Disagree,Disagree,
+14,55-64,Researcher,Male,PhD or higher,Spain,Several times a week,"['Studying or learning', ' Work/professional tasks']",Yes,No,No,Disagree,Agree,Neutral,Disagree,Neutral,
+15,65 +,CEO,Male,Master’s Degree,Andorra,Several times a week,['Work/professional tasks'],Yes,No,No,Neutral,Strongly Disagree,Neutral,Disagree,Strongly Disagree,
+16,25-34,Student,Male,Master’s Degree,United Kingdom,Daily,"['Studying or learning', ' Creative writing or art']",Yes,Yes,No,Disagree,Agree,Neutral,Agree,Strongly Disagree,
+17,55-64,Doctor,Male,PhD or higher,Spain,Rarely,['Work/professional tasks'],No,Yes,No,Agree,Neutral,Neutral,Agree,Disagree,No se
+18,35-44,Businessman,Male,Master’s Degree,Andorra,Daily,"['Studying or learning', ' Work/professional tasks', ' Social media content']",Yes,Yes,Yes,Neutral,Strongly Disagree,Disagree,Strongly Disagree,Neutral,
+19,25-34,Teacher,Female,Master’s Degree,Andorra,Rarely,['Others'],No,Yes,No,Strongly Agree,Agree,Strongly Disagree,Agree,Strongly Disagree,
+20,18-24,HR,Female,Bachelor’s Degree,Arab Emirates,Daily,['Work/professional tasks'],No,Yes,No,Agree,Strongly Agree,Agree,Agree,Neutral,"Tenga empatía real: no solo que entienda palabras, sino que sepa cómo apoyarte emocionalmente según tu personalidad."
+21,65 +,Pensioner,Male,Bachelor’s Degree,Andorra,Never,"[""Don't use""]",No,Yes,No,Strongly Agree,Agree,Disagree,Disagree,Strongly Disagree,
+22,25-34,Dentist,Female,Master’s Degree,Spain,Rarely,['Entertainment'],No,Yes,No,Agree,Agree,Disagree,Agree,Strongly Disagree,Ninguna
+23,45-54,Housewife,Female,Other,Spain,Several times a week,['Others'],Yes,No,No,Disagree,Disagree,Neutral,Disagree,Neutral,?
+24,18-24,Software developer,Female,Bachelor’s Degree,Argentina,Daily,['Work/professional tasks'],Yes,Yes,Yes,Strongly Agree,Agree,Neutral,Disagree,Strongly Disagree,"Una aplicación que se encargará de la sección de administración de una empresa con únicamente el input necesario de parte del usuario, que este al tanto de leyes y resoluciones."
+25,18-24,Programmer,Female,Bachelor’s Degree,Argentina,Daily,['Work/professional tasks'],Yes,Yes,No,Agree,Agree,Disagree,Disagree,Strongly Disagree,
+26,45-54,Housewife,Female,Other,Argentina,Rarely,['Others'],No,Yes,Yes,Agree,Strongly Agree,Disagree,Agree,Strongly Disagree,
+27,18-24,Student,Female,Bachelor’s Degree,Argentina,Several times a week,"['Studying or learning', ' Entertainment']",No,Yes,Yes,Neutral,Agree,Neutral,Disagree,Neutral,Cualquiera que me ayude a resolver problemas matematicos de manera exacta
+28,18-24,Student,Male,Bachelor’s Degree,Argentina,Daily,"['Studying or learning', ' Social media content', ' Entertainment']",Yes,Yes,Yes,Neutral,Disagree,Strongly Agree,Neutral,Disagree,
+29,25-34,Counter,Male,Bachelor’s Degree,Argentina,Daily,['Studying or learning'],No,Yes,Yes,Disagree,Strongly Agree,Agree,Strongly Agree,Strongly Disagree,Nada
+30,18-24,Employee,Female,High School,Argentina,Daily,"['Studying or learning', ' Work/professional tasks', ' Entertainment']",Yes,No,Yes,Neutral,Neutral,Agree,Neutral,Agree,No se
+31,-18,Student,Male,High School,Argentina,Daily,"['Studying or learning', ' Entertainment']",Yes,No,No,Neutral,Disagree,Neutral,Disagree,Agree,Una app para crear películas 😎
+32,18-24,Mechanic,Male,Bachelor’s Degree,Argentina,Rarely,"['Studying or learning', ' Entertainment', ' Others']",No,Yes,No,Strongly Agree,Neutral,Neutral,Disagree,Disagree,Una IA que ayudara con los procesos de conección con la Ecu de un vehiculo ya que dependiendo por ej del escaner que se use para ver las fallas de un vehiculo puede o no obtener acceso a los datos del motor (Esto tambien varia dependiendo de que marca sea el vehiculo). Seria practico un escaner que posea una IA y que esta ayudara a realizar la coneccion entre Others procesos.
+33,35-44,Technical Support Head,Male,Bachelor’s Degree,Argentina,Several times a week,"['Studying or learning', ' Work/professional tasks', ' Others']",Yes,No,No,Disagree,Disagree,Neutral,Disagree,Neutral,
+34,25-34,Programmer,Male,Bachelor’s Degree,Argentina,Several times a week,"['Studying or learning', ' Work/professional tasks', ' Creative writing or art']",Yes,Yes,No,Agree,Disagree,Neutral,Agree,Neutral,"Una aplicación para tomar decisiones políticas y o condenatorias, quizá haya menos corrupción y justicia, pero quien sabe."
+35,18-24,Student,Female,Bachelor’s Degree,Argentina,Several times a week,"['Studying or learning', ' Work/professional tasks', ' Social media content']",Yes,Yes,No,Agree,Disagree,Neutral,Disagree,Strongly Disagree,
+36,18-24,Student,Female,Other,Argentina,Several times a week,['Studying or learning'],Yes,No,Yes,Neutral,Agree,Agree,Neutral,Disagree,
+37,35-44,Development manager,Female,Bachelor’s Degree,Argentina,Daily,['Work/professional tasks'],Yes,Yes,No,Strongly Agree,Agree,Neutral,Neutral,Disagree,
+38,45-54,Medical,Female,Bachelor’s Degree,Argentina,Never,"[""Don't use""]",No,Yes,Yes,Strongly Agree,Strongly Agree,Disagree,Disagree,Strongly Disagree,Nada 
+39,18-24,Student,Male,High School,Argentina,Several times a week,"['Studying or learning', ' Entertainment']",No,Yes,No,Neutral,Neutral,Neutral,Neutral,Neutral,Una IA que recopile todos los estudios y avances médicos por más nuevos o viejos que sean y que los puede traducir a diversos idiomas 
+40,25-34,Student,Female,Bachelor’s Degree,Argentina,Rarely,"['Studying or learning', ' Others']",Yes,No,Yes,Neutral,Strongly Disagree,Neutral,Strongly Disagree,Neutral,
+41,25-34,IT support,Female,Bachelor’s Degree,Argentina,Daily,"['Studying or learning', ' Work/professional tasks']",Yes,Yes,No,Disagree,Agree,Disagree,Disagree,Neutral,Chat gpt
+42,25-34,Psychology,Female,Master’s Degree,Andorra,Daily,"['Studying or learning', ' Work/professional tasks', ' Entertainment']",Yes,Yes,Yes,Neutral,Agree,Strongly Disagree,Agree,Disagree,Editor de fotos fácil y rápido.
+43,25-34,Illustrator,Male,Bachelor’s Degree,Andorra,Rarely,"[""Don't use""]",No,Yes,No,Neutral,Agree,Neutral,Agree,Neutral,
+44,25-34,Big Accounts Management (Commercial Dept),Male,Bachelor’s Degree,Spain,Rarely,"['Studying or learning', ' Work/professional tasks']",No,Yes,No,Neutral,Disagree,Disagree,Disagree,Strongly Disagree,
 45,18-24,Student in Graphic Design,Male,Bachelor’s Degree,Argentina,Rarely,"['Studying or learning', ' Creative writing or art']",No,No,No,Strongly Agree,Strongly Agree,Strongly Disagree,Neutral,Strongly Disagree,"Una ia que en vez de producir arte, ayude en el comercio de este para los artistas, autores, etc."
-46,35-44,Developer,Male,Bachelor’s Degree,Argentina,Daily,"['Studying or learning', ' Work/professional tasks', ' Entertainment']",Si,Si,No,Neutral,Disagree,Agree,Disagree,Strongly Disagree,En games
-47,45-54,Employee,Female,High School,Argentina,Never,"[""Don't use""]",No,No,Si,Neutral,Neutral,Neutral,Neutral,Neutral,
-48,35-44,Software developer,Female,Bachelor’s Degree,Argentina,Daily,"['Studying or learning', ' Work/professional tasks', ' Entertainment', ' Others']",Si,No,No,Neutral,Neutral,Agree,Neutral,Neutral,
-49,45-54,Unemployed,Female,Master’s Degree,Spain,Rarely,['Others'],Si,Si,No,Strongly Agree,Strongly Agree,Disagree,Agree,Strongly Disagree,
-50,45-54,Management,Male,Bachelor’s Degree,Spain,Several times a week,"['Work/professional tasks', ' Others']",Si,No,No,Strongly Disagree,Disagree,Strongly Disagree,Strongly Disagree,Disagree,Diseño 3D tecnico
-51,35-44,IT technician,Male,Bachelor’s Degree,Argentina,Several times a week,"['Studying or learning', ' Work/professional tasks', ' Entertainment']",Si,Si,Si,Agree,Disagree,Agree,Disagree,Disagree,"Una aplicación para detectar rapidamente picos de presión, de glucemia, infartos o ACV"
+46,35-44,Developer,Male,Bachelor’s Degree,Argentina,Daily,"['Studying or learning', ' Work/professional tasks', ' Entertainment']",Yes,Yes,No,Neutral,Disagree,Agree,Disagree,Strongly Disagree,En games
+47,45-54,Employee,Female,High School,Argentina,Never,"[""Don't use""]",No,No,Yes,Neutral,Neutral,Neutral,Neutral,Neutral,
+48,35-44,Software developer,Female,Bachelor’s Degree,Argentina,Daily,"['Studying or learning', ' Work/professional tasks', ' Entertainment', ' Others']",Yes,No,No,Neutral,Neutral,Agree,Neutral,Neutral,
+49,45-54,Unemployed,Female,Master’s Degree,Spain,Rarely,['Others'],Yes,Yes,No,Strongly Agree,Strongly Agree,Disagree,Agree,Strongly Disagree,
+50,45-54,Management,Male,Bachelor’s Degree,Spain,Several times a week,"['Work/professional tasks', ' Others']",Yes,No,No,Strongly Disagree,Disagree,Strongly Disagree,Strongly Disagree,Disagree,Diseño 3D tecnico
+51,35-44,IT technician,Male,Bachelor’s Degree,Argentina,Several times a week,"['Studying or learning', ' Work/professional tasks', ' Entertainment']",Yes,Yes,Yes,Agree,Disagree,Agree,Disagree,Disagree,"Una aplicación para detectar rapidamente picos de presión, de glucemia, infartos o ACV"
 52,55-64,administrative,Male,High School,Argentina,Several times a week,['Entertainment'],No,No,No,Agree,Disagree,Neutral,Neutral,Disagree,
-53,25-34,Comics author,Trans,Other,Spain,Never,"[""Don't use""]",No,Si,No,Strongly Agree,Neutral,Strongly Disagree,Strongly Disagree,Disagree,Una IA que ayudase con impuestos y burocracia.
-54,25-34,Systems technician,Male,Other,Andorra,Rarely,"['Work/professional tasks', ' Others']",No,Si,No,Strongly Agree,Strongly Agree,Strongly Disagree,Strongly Disagree,Neutral,Una IA que bloquee IA generativa
-55,18-24,Student,Female,Bachelor’s Degree,Spain,Never,"[""Don't use""]",No,Si,No,Strongly Agree,Agree,Strongly Disagree,Agree,Disagree,
-56,18-24,Student,Male,Bachelor’s Degree,Colombia,Several times a week,"['Studying or learning', ' Creative writing or art', ' Entertainment']",No,Si,Si,Agree,Neutral,Neutral,Neutral,Strongly Disagree,"IA para monitoreo de salud, actividad física o alguna aplicación útil para el campo de la salud."
-57,25-34,Biologist,Female,Master’s Degree,Spain,Several times a week,['Work/professional tasks'],No,Si,Si,Strongly Agree,Neutral,Neutral,Agree,Strongly Disagree,Me gustaria una aplicación de organización de viajes según intereses y criterio del usuario
-58,25-34,Unemployed,Male,Bachelor’s Degree,Andorra,Several times a week,"['Work/professional tasks', ' Entertainment']",Si,No,Si,Neutral,Disagree,Agree,Disagree,Agree,Por ahora no se me ocurre ninguna
-59,25-34,Unemployed,Female,Other,Spain,Several times a week,"['Entertainment', ' Others']",Si,No,Si,Neutral,Neutral,Agree,Neutral,Agree,
+53,25-34,Comics author,Trans,Other,Spain,Never,"[""Don't use""]",No,Yes,No,Strongly Agree,Neutral,Strongly Disagree,Strongly Disagree,Disagree,Una IA que ayudase con impuestos y burocracia.
+54,25-34,Systems technician,Male,Other,Andorra,Rarely,"['Work/professional tasks', ' Others']",No,Yes,No,Strongly Agree,Strongly Agree,Strongly Disagree,Strongly Disagree,Neutral,Una IA que bloquee IA generativa
+55,18-24,Student,Female,Bachelor’s Degree,Spain,Never,"[""Don't use""]",No,Yes,No,Strongly Agree,Agree,Strongly Disagree,Agree,Disagree,
+56,18-24,Student,Male,Bachelor’s Degree,Colombia,Several times a week,"['Studying or learning', ' Creative writing or art', ' Entertainment']",No,Yes,Yes,Agree,Neutral,Neutral,Neutral,Strongly Disagree,"IA para monitoreo de salud, actividad física o alguna aplicación útil para el campo de la salud."
+57,25-34,Biologist,Female,Master’s Degree,Spain,Several times a week,['Work/professional tasks'],No,Yes,Yes,Strongly Agree,Neutral,Neutral,Agree,Strongly Disagree,Me gustaria una aplicación de organización de viajes según intereses y criterio del usuario
+58,25-34,Unemployed,Male,Bachelor’s Degree,Andorra,Several times a week,"['Work/professional tasks', ' Entertainment']",Yes,No,Yes,Neutral,Disagree,Agree,Disagree,Agree,Por ahora no se me ocurre ninguna
+59,25-34,Unemployed,Female,Other,Spain,Several times a week,"['Entertainment', ' Others']",Yes,No,Yes,Neutral,Neutral,Agree,Neutral,Agree,
