@@ -14,7 +14,7 @@ Data_Analysis-AI-Psychology/
 
 ├── docs/ ---> Project documentation
 
-│   ├── Start/ ---> Study of the project and how to work with it
+│   ├── Start/ ---> Forms that had been used
 
 │   └── Dashboards/ ---> Tableau files of graphs
 

@@ -1,4 +1,4 @@
-Data -- Psychologis:
+Questions about IA and its relation ith people behaviour respect psychologist point of view
 
 Do you work primarily with:
 ☐ Children/Adolescents
@@ -47,15 +47,12 @@ Do you believe the general population is adequately prepared to use AI responsib
 ☐ No
 ☐ Depends – explain below
 
-What is your opinion about people who use AI as a psychologis.
-(Open-ended)
-
-Would you support integrating AI literacy and responsible-use education into school mental health programs? Why or why not?
-(Open-ended)
-
 4. Final Thoughts
 Do you believe AI will have a net positive or negative impact on mental health in the next 10 years?
 ☐ Mostly positive
 ☐ Balanced (positive and negative)
 ☐ Mostly negative
 ☐ Too early to tell
+
+What is your opinion about people who use AI as a conversational partner. 
+(Open-ended)
